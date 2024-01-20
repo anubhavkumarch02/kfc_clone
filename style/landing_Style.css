@@ -1,0 +1,129 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+#location{
+    height: 50px;
+    width: 100%;
+    background-color: white;
+    border-bottom: 1px solid #dbdbdb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#location button{
+    height: 30px;
+    width: 110px;
+    margin-left: 20px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    font-size: 11px;
+}
+#col-md-12{
+    margin-left: 10px;
+    font-size: 13px;
+}
+#navbar{
+    height: 80px;
+    width: 100%;
+    display: flex;
+justify-content: space-between;
+align-items: center;
+}
+#navbar>div{
+    height: 100%;
+    width: 23%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#navbar>div:nth-child(1){
+    margin-left: 80px;
+}
+#navbar>div:nth-child(2){
+    margin-right: 80px;
+}
+#nav-11,#nav-12,#nav-13{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+#navbar>div:nth-child(2)>div{
+    width: 150px;
+    }
+#navbar>div:nth-child(2)>div+div{
+border: 1px solid #e3e3e3;
+width: 0px;
+height: 30px;
+margin-right: 9px;
+}
+#navbar>div:nth-child(2)>div+div+div{
+    width: 150px;
+    height: 80px;
+    margin-left: -9px;
+    border:none;
+    }
+    #parent-1{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    #parent-3{
+        display: flex;
+        justify-content: left;
+        align-items: center;
+    }
+#new-11>img{
+    margin-left: 45px;
+    margin-top: 10px;
+}
+#new-12>p{
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 18px;
+}
+#new-31{
+    height: 50px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+}
+#new-32{
+    margin-top: 15px;
+}
+#new-31>span{
+    margin-top: 5px;
+}
+#new-32>img{
+    height: 50px;
+    width: 50px;
+    margin-left: 5pxpx;
+}
+.symbol-11{
+    height: 30px;
+    width: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.symbol-11>img{
+    height: 10px;
+    width: 10px;
+    margin-top: 5px;
+}
+.symbol-12{
+    margin-top: 6px;
+    width: auto;
+}
