@@ -32,43 +32,6 @@ const login_Image=[
     }
 ];
 
-// banner section images
-const banner_Image=[
-    {
-        src:"https://images.ctfassets.net/wtodlh47qxpt/5O6t7HsN…zza_Banner_1440x396px.jpg?w=1366&fit=fill&fm=webp"
-    },
-    {
-        src:"https://images.ctfassets.net/wtodlh47qxpt/5gf6cz2vMpCLgQ4M4XaUaj/8a10d03ec85203e7439e113d336f949d/Zinger_pro_1440x396px.jpg?w=1366&fit=fill&fm=webp"
-    }
-];
-
-// browse category section images
-const browse_CategoryImage=[
-    {
-        src:"https://orderserv-kfc-assets.yum.com/15895bb59f7b4…3f8cd5344a/images/categories/CAT233.jpg?ver=38.94"
-    },
-    {
-        src:"https://orderserv-kfc-assets.yum.com/15895bb59f7b4…3f8cd5344a/images/categories/CAT224.jpg?ver=38.94"
-    },
-    {
-        src:"https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/categories/CAT170.jpg?ver=38.94"
-    },
-    {
-        src:"https://orderserv-kfc-assets.yum.com/15895bb59f7b4…33f8cd5344a/images/categories/CAT86.jpg?ver=38.94"
-    },
-    {
-        src:"https://orderserv-kfc-assets.yum.com/15895bb59f7b4…3f8cd5344a/images/categories/CAT190.jpg?ver=38.94"
-    },
-    {
-        src:"https://orderserv-kfc-assets.yum.com/15895bb59f7b4…3f8cd5344a/images/categories/CAT158.jpg?ver=38.94"
-    },
-    {
-        src:"https://orderserv-kfc-assets.yum.com/15895bb59f7b4…33f8cd5344a/images/categories/CAT99.jpg?ver=38.94"
-    },
-    {
-        src:"https://online.kfc.co.in/static/media/finger_lickin.fc21c805.svg"
-    }
-];
 
 // scroll - animation section images
 const scroll_Image=[
@@ -109,6 +72,7 @@ const footer_Image=[
 ];
 //location section top code starts
                                 // location icon code starts
+                                
 const location_Parent=document.querySelector("#location");
 for(var i=0;i<3;i++){
     var parentDiv_location=document.createElement("div");
